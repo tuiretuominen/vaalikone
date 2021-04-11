@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Kirjaudu</title>
+<link rel="stylesheet" href="etusivutyylit.css">
+</head>
+<body>
+<h1>Huippukoodareiden vaalikone</h1>
+<h3>Kirjaudu sisään ja pääset lisäämään tietosi</h3>
+<br>
+<br>
+<form action='./path' method='post'>
+
+Käyttäjätunnus: <input type='text' name='username' value=''><br>
+<p> </p>
+Salasana: <input type='text' name='userpass' value=''><br>
+<p> </p>
+			<input type='submit' name='kirjaudu' value='Kirjaudu'>
+</form>
+
+<a href='./naytakaikki'>Näytä väittämät</a><br>
+<a href='./lisaa.html'>Lisää väittämä ja vastaus</a><br>
+<br>
+</body>
+</html>
